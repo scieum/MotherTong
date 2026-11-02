@@ -1,0 +1,362 @@
+[
+ {
+  "seq": 1,
+  "png": "output/items/acidbase/acidbase_01.png",
+  "stem": "2018년-11월-고1-통합과학",
+  "orig_no": 12,
+  "label": null,
+  "topic": "산과 염기의 성질 — 전기 전도성과 페놀프탈레인 반응",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 2,
+  "png": "output/items/acidbase/acidbase_02.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 11,
+  "label": null,
+  "topic": "묽은 염산의 성질 — 리트머스 종이로 본 H⁺의 이동",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 3,
+  "png": "output/items/acidbase/acidbase_03.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 15,
+  "label": null,
+  "topic": "산·염기 수용액의 이온 모형과 지시약·탄산 칼슘 반응",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 4,
+  "png": "output/items/acidbase/acidbase_04.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 15,
+  "label": null,
+  "topic": "산과 염기의 성질 — BTB 색 변화와 탄산 칼슘 반응",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 5,
+  "png": "output/items/acidbase/acidbase_05.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 9,
+  "label": null,
+  "topic": "수용액 분류 기준 — 전기 전도성·지시약·탄산 칼슘",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 6,
+  "png": "output/items/acidbase/acidbase_06.png",
+  "stem": "2022년-03월-고2-화학1",
+  "orig_no": 14,
+  "label": null,
+  "topic": "수용액 판별 — 페놀프탈레인 색과 Zn 반응",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 7,
+  "png": "output/items/acidbase/acidbase_07.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 14,
+  "label": null,
+  "topic": "수용액의 이온 모형 — HCl·NaOH·NaCl 판별",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 8,
+  "png": "output/items/acidbase/acidbase_08.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 15,
+  "label": null,
+  "topic": "식초의 성질 — 리트머스와 달걀 껍데기 반응",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 9,
+  "png": "output/items/acidbase/acidbase_09.png",
+  "stem": "2023년-11월-고1-통합과학",
+  "orig_no": 16,
+  "label": null,
+  "topic": "HCl·NaOH 수용액 구분 — 전기 전도성과 탄산 칼슘",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 10,
+  "png": "output/items/acidbase/acidbase_10.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 12,
+  "label": null,
+  "topic": "NaOH 수용액의 성질 — 리트머스 종이로 본 OH⁻의 이동",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 11,
+  "png": "output/items/acidbase/acidbase_11.png",
+  "stem": "2026년-03월-고2-통합과학",
+  "orig_no": 7,
+  "label": null,
+  "topic": "아세트산 수용액의 성질 — Mg·탄산 칼슘 반응",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 12,
+  "png": "output/items/acidbase/acidbase_12.png",
+  "stem": "2026년-06월-고2-통합과학",
+  "orig_no": 9,
+  "label": null,
+  "topic": "산과 염기의 성질 — 페놀프탈레인과 탄산 칼슘으로 판별",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 13,
+  "png": "output/items/acidbase/acidbase_13.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 10,
+  "label": null,
+  "topic": "탄소 화합물(에탄올·아세트산) — 아세트산 수용액의 액성",
+  "tier": "B",
+  "answer": 1
+ },
+ {
+  "seq": 14,
+  "png": "output/items/acidbase/acidbase_14.png",
+  "stem": "2022년-03월-고2-화학1",
+  "orig_no": 4,
+  "label": null,
+  "topic": "탄소 화합물 비교 — CH₃COOH 수용액의 산성",
+  "tier": "B",
+  "answer": 4
+ },
+ {
+  "seq": 15,
+  "png": "output/items/acidbase/acidbase_15.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 3,
+  "label": null,
+  "topic": "물질의 이용 사례 — 식초(아세트산) 수용액의 산성",
+  "tier": "B",
+  "answer": 5
+ },
+ {
+  "seq": 16,
+  "png": "output/items/acidbase/acidbase_16.png",
+  "stem": "2026년-09월-고2-통합과학",
+  "orig_no": 13,
+  "label": null,
+  "topic": "해양 산성화 — 탄산의 이온화와 H⁺ 증가",
+  "tier": "B",
+  "answer": 3
+ },
+ {
+  "seq": 17,
+  "png": "output/items/acidbase/acidbase_17.png",
+  "stem": "2018년-06월-고1-통합과학",
+  "orig_no": 11,
+  "label": null,
+  "topic": "알칼리 금속 X — 물과의 반응과 페놀프탈레인 색 변화",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 18,
+  "png": "output/items/acidbase/acidbase_18.png",
+  "stem": "2018년-09월-고1-통합과학",
+  "orig_no": 4,
+  "label": null,
+  "topic": "나트륨과 물의 반응 — 용액이 붉게 변하는 까닭",
+  "tier": "C",
+  "answer": 2
+ },
+ {
+  "seq": 19,
+  "png": "output/items/acidbase/acidbase_19.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 9,
+  "label": null,
+  "topic": "리튬·나트륨과 물의 반응 — 수용액의 염기성",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 20,
+  "png": "output/items/acidbase/acidbase_20.png",
+  "stem": "2019년-06월-고1-통합과학",
+  "orig_no": 8,
+  "label": null,
+  "topic": "알칼리 금속 탐구 설계 — 염기성 확인 실험 고르기",
+  "tier": "C",
+  "answer": 4
+ },
+ {
+  "seq": 21,
+  "png": "output/items/acidbase/acidbase_21.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 7,
+  "label": null,
+  "topic": "나트륨의 성질 — 물과의 반응과 수용액의 액성",
+  "tier": "C",
+  "answer": 4
+ },
+ {
+  "seq": 22,
+  "png": "output/items/acidbase/acidbase_22.png",
+  "stem": "2020년-06월-고1-통합과학",
+  "orig_no": 7,
+  "label": null,
+  "topic": "Li·Na·K과 물의 반응 — 페놀프탈레인 색 변화",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 23,
+  "png": "output/items/acidbase/acidbase_23.png",
+  "stem": "2021년-09월-고1-통합과학",
+  "orig_no": 5,
+  "label": null,
+  "topic": "두 알칼리 금속의 반응성 비교와 수용액의 액성",
+  "tier": "C",
+  "answer": 3
+ },
+ {
+  "seq": 24,
+  "png": "output/items/acidbase/acidbase_24.png",
+  "stem": "2022년-03월-고2-화학1",
+  "orig_no": 10,
+  "label": null,
+  "topic": "나트륨의 성질 — 단면 변화와 수용액의 염기성",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 25,
+  "png": "output/items/acidbase/acidbase_25.png",
+  "stem": "2022년-06월-고1-통합과학",
+  "orig_no": 9,
+  "label": null,
+  "topic": "Li·Na·K 성질 탐구 — 가설과 페놀프탈레인 결과",
+  "tier": "C",
+  "answer": 4
+ },
+ {
+  "seq": 26,
+  "png": "output/items/acidbase/acidbase_26.png",
+  "stem": "2022년-09월-고1-통합과학",
+  "orig_no": 2,
+  "label": null,
+  "topic": "나트륨과 물의 반응 — 기체 확인법과 지시약 고르기",
+  "tier": "C",
+  "answer": 2
+ },
+ {
+  "seq": 27,
+  "png": "output/items/acidbase/acidbase_27.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 7,
+  "label": null,
+  "topic": "리튬과 물의 반응 — 수소 발생과 수용액의 염기성",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 28,
+  "png": "output/items/acidbase/acidbase_28.png",
+  "stem": "2023년-06월-고1-통합과학",
+  "orig_no": 19,
+  "label": null,
+  "topic": "나트륨의 성질 — 단면 변화와 수용액의 액성",
+  "tier": "C",
+  "answer": 3
+ },
+ {
+  "seq": 29,
+  "png": "output/items/acidbase/acidbase_29.png",
+  "stem": "2023년-09월-고1-통합과학",
+  "orig_no": 6,
+  "label": null,
+  "topic": "알칼리 금속 A — 산화와 수용액의 액성 판별",
+  "tier": "C",
+  "answer": 4
+ },
+ {
+  "seq": 30,
+  "png": "output/items/acidbase/acidbase_30.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 10,
+  "label": null,
+  "topic": "Li·Na·K 탐구 활동 — 가설과 수용액의 염기성",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 31,
+  "png": "output/items/acidbase/acidbase_31.png",
+  "stem": "2024년-06월-고1-통합과학",
+  "orig_no": 15,
+  "label": null,
+  "topic": "같은 족 원소의 성질 — 알칼리 금속 반응 후 수용액의 액성",
+  "tier": "C",
+  "answer": 3
+ },
+ {
+  "seq": 32,
+  "png": "output/items/acidbase/acidbase_32.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 5,
+  "label": null,
+  "topic": "리튬·나트륨의 성질 비교와 수용액의 염기성",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 33,
+  "png": "output/items/acidbase/acidbase_33.png",
+  "stem": "2025년-09월-고1-통합과학",
+  "orig_no": 8,
+  "label": null,
+  "topic": "알칼리 금속 A — 단면 관찰과 페놀프탈레인 반응",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 34,
+  "png": "output/items/acidbase/acidbase_34.png",
+  "stem": "2026년-06월-고1-통합과학",
+  "orig_no": 14,
+  "label": null,
+  "topic": "Li·Na·K과 물의 반응 — 발생 기체와 수용액의 색 변화",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 35,
+  "png": "output/items/acidbase/acidbase_35.png",
+  "stem": "2026년-09월-고1-통합과학",
+  "orig_no": 9,
+  "label": null,
+  "topic": "리튬·나트륨과 물의 반응 정도와 수용액의 액성",
+  "tier": "C",
+  "answer": 5
+ },
+ {
+  "seq": 36,
+  "png": "output/items/acidbase/acidbase_36.png",
+  "stem": "2026년-09월-고2-통합과학",
+  "orig_no": 11,
+  "label": null,
+  "topic": "Li·Na·K 탐구 — 수용액이 띠는 액성 가설 검증",
+  "tier": "C",
+  "answer": 4
+ }
+]

@@ -1,0 +1,502 @@
+[
+ {
+  "seq": 1,
+  "png": "output/items/redox/redox_01.png",
+  "stem": "2018년-09월-고1-통합과학",
+  "orig_no": 4,
+  "label": null,
+  "topic": "알칼리 금속(Na)과 물의 반응 — 전자 이동",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 2,
+  "png": "output/items/redox/redox_02.png",
+  "stem": "2018년-11월-고1-통합과학",
+  "orig_no": 13,
+  "label": null,
+  "topic": "구리의 연소·환원 실험에서 산화되는 물질",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 3,
+  "png": "output/items/redox/redox_03.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 1,
+  "label": null,
+  "topic": "철광석 속 철의 상태와 제련",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 4,
+  "png": "output/items/redox/redox_04.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 8,
+  "label": null,
+  "topic": "3가지 반응식에서 환원되는 물질",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 5,
+  "png": "output/items/redox/redox_05.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 9,
+  "label": null,
+  "topic": "알칼리 금속(Li·Na)의 산화와 물과의 반응",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 6,
+  "png": "output/items/redox/redox_06.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 14,
+  "label": null,
+  "topic": "구리판 가열 — 산화·환원과 질량 변화",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 7,
+  "png": "output/items/redox/redox_07.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 18,
+  "label": null,
+  "topic": "금속 이온 수용액과 금속의 반응(양이온 수 변화)",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 8,
+  "png": "output/items/redox/redox_08.png",
+  "stem": "2019년-11월-고1-통합과학",
+  "orig_no": 17,
+  "label": null,
+  "topic": "CuSO4 수용액과 Zn — 전자 이동·이온 수 변화",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 9,
+  "png": "output/items/redox/redox_09.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 5,
+  "label": null,
+  "topic": "연소와 광합성이 산화·환원인지 판별",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 10,
+  "png": "output/items/redox/redox_10.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 7,
+  "label": null,
+  "topic": "금속 나트륨의 산화와 물과의 반응",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 11,
+  "png": "output/items/redox/redox_11.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 12,
+  "label": null,
+  "topic": "산화 구리(Ⅱ)와 탄소의 반응 — 산소를 잃음",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 12,
+  "png": "output/items/redox/redox_12.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 14,
+  "label": null,
+  "topic": "3가지 산화·환원 반응식에서 환원되는 물질",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 13,
+  "png": "output/items/redox/redox_13.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 20,
+  "label": null,
+  "topic": "금속 A~C의 산화·환원 반응(전자 이동·양이온 수)",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 14,
+  "png": "output/items/redox/redox_14.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 3,
+  "label": null,
+  "topic": "실생활 사례 중 산화·환원 반응 판별",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 15,
+  "png": "output/items/redox/redox_15.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 12,
+  "label": null,
+  "topic": "Cu의 연소와 포도당의 연소 — 산화 판별",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 16,
+  "png": "output/items/redox/redox_16.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 19,
+  "label": null,
+  "topic": "금속 A와 B 이온 수용액의 반응",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 17,
+  "png": "output/items/redox/redox_17.png",
+  "stem": "2022년-03월-고2-화학1",
+  "orig_no": 2,
+  "label": null,
+  "topic": "산화·환원 반응의 사례 판별(녹·레몬즙·광합성)",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 18,
+  "png": "output/items/redox/redox_18.png",
+  "stem": "2022년-03월-고2-화학1",
+  "orig_no": 13,
+  "label": null,
+  "topic": "구리 코일의 산화와 수소에 의한 환원",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 19,
+  "png": "output/items/redox/redox_19.png",
+  "stem": "2022년-03월-고2-화학1",
+  "orig_no": 17,
+  "label": null,
+  "topic": "금속 A와 BNO3 수용액 — 석출과 전자 이동",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 20,
+  "png": "output/items/redox/redox_20.png",
+  "stem": "2022년-11월-고1-통합과학",
+  "orig_no": 13,
+  "label": null,
+  "topic": "AgNO3 수용액과 Cu — 양이온 모형과 전자 이동",
+  "tier": "A",
+  "answer": null
+ },
+ {
+  "seq": 21,
+  "png": "output/items/redox/redox_21.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 5,
+  "label": null,
+  "topic": "철과 관련된 두 반응에서 산화되는 물질",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 22,
+  "png": "output/items/redox/redox_22.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 7,
+  "label": null,
+  "topic": "금속 리튬의 산화와 물과의 반응",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 23,
+  "png": "output/items/redox/redox_23.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 12,
+  "label": null,
+  "topic": "광합성과 연소 반응식 — CH4의 환원 여부",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 24,
+  "png": "output/items/redox/redox_24.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 19,
+  "label": null,
+  "topic": "금속 X·Y·Z의 반응성과 석출",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 25,
+  "png": "output/items/redox/redox_25.png",
+  "stem": "2023년-09월-고1-통합과학",
+  "orig_no": 6,
+  "label": null,
+  "topic": "알칼리 금속의 산화(광택 사라짐)와 전자 잃음",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 26,
+  "png": "output/items/redox/redox_26.png",
+  "stem": "2023년-11월-고1-통합과학",
+  "orig_no": 10,
+  "label": null,
+  "topic": "철의 제련 — 코크스 연소와 산화 철의 환원",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 27,
+  "png": "output/items/redox/redox_27.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 8,
+  "label": null,
+  "topic": "구리 지붕의 변색 — 전자를 잃고 산화됨",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 28,
+  "png": "output/items/redox/redox_28.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 10,
+  "label": null,
+  "topic": "Li·Na·K의 산화와 물과의 반응 탐구",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 29,
+  "png": "output/items/redox/redox_29.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 12,
+  "label": null,
+  "topic": "광합성·연소·제련 3반응의 산화·환원",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 30,
+  "png": "output/items/redox/redox_30.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 17,
+  "label": null,
+  "topic": "금속 A~C의 산화·환원 반응과 반응성",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 31,
+  "png": "output/items/redox/redox_31.png",
+  "stem": "2024년-10월-고1-통합과학",
+  "orig_no": 16,
+  "label": null,
+  "topic": "철의 제련과 광합성 — 산화·환원",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 32,
+  "png": "output/items/redox/redox_32.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 2,
+  "label": null,
+  "topic": "산화·환원 반응의 사례 판별(녹·중화·연소)",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 33,
+  "png": "output/items/redox/redox_33.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 14,
+  "label": null,
+  "topic": "AgNO3 수용액과 Cu — 석출과 양이온 수",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 34,
+  "png": "output/items/redox/redox_34.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 19,
+  "label": null,
+  "topic": "금속 이온 수용액과 금속 B — 양이온 수 그래프",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 35,
+  "png": "output/items/redox/redox_35.png",
+  "stem": "2025년-10월-고1-통합과학",
+  "orig_no": 5,
+  "label": null,
+  "topic": "마그네슘의 연소 — 산화·환원과 전자 이동",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 36,
+  "png": "output/items/redox/redox_36.png",
+  "stem": "2026년-03월-고2-통합과학",
+  "orig_no": 4,
+  "label": null,
+  "topic": "전기 자전거 — 세포호흡의 산화와 철의 부식",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 37,
+  "png": "output/items/redox/redox_37.png",
+  "stem": "2026년-06월-고2-통합과학",
+  "orig_no": 16,
+  "label": null,
+  "topic": "Mg의 연소와 Fe의 부식의 공통점",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 38,
+  "png": "output/items/redox/redox_38.png",
+  "stem": "2026년-09월-고2-통합과학",
+  "orig_no": 10,
+  "label": null,
+  "topic": "산화 구리(Ⅱ)와 탄소의 산화·환원 실험",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 39,
+  "png": "output/items/redox/redox_39.png",
+  "stem": "2028학년도-수능예시문항-1차",
+  "orig_no": 5,
+  "label": "예시문항 5번",
+  "topic": "지구·생명 현상 속 산화·환원 반응과 열 출입 가설 검증",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 40,
+  "png": "output/items/redox/redox_40.png",
+  "stem": "2028학년도-수능예시문항-2차",
+  "orig_no": 12,
+  "label": "문제지 12번",
+  "topic": "XCl 수용액과 금속 Y — 이온 모형과 산화",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 41,
+  "png": "output/items/redox/redox_41.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 17,
+  "label": null,
+  "topic": "수소 연료 전지 — H2의 산화와 에너지 전환",
+  "tier": "B",
+  "answer": 5
+ },
+ {
+  "seq": 42,
+  "png": "output/items/redox/redox_42.png",
+  "stem": "2020년-03월-고2-생명과학1",
+  "orig_no": 11,
+  "label": null,
+  "topic": "세포 호흡 — 포도당의 산화·환원 여부",
+  "tier": "B",
+  "answer": 3
+ },
+ {
+  "seq": 43,
+  "png": "output/items/redox/redox_43.png",
+  "stem": "2021년-11월-고1-통합과학",
+  "orig_no": 18,
+  "label": null,
+  "topic": "과산화 수소 분해(촉매)와 나트륨의 산화",
+  "tier": "B",
+  "answer": 5
+ },
+ {
+  "seq": 44,
+  "png": "output/items/redox/redox_44.png",
+  "stem": "2022년-03월-고2-생명과학1",
+  "orig_no": 12,
+  "label": null,
+  "topic": "포도당 산화 효소와 당뇨병 진단",
+  "tier": "B",
+  "answer": 1
+ },
+ {
+  "seq": 45,
+  "png": "output/items/redox/redox_45.png",
+  "stem": "2023년-03월-고2-생명과학1",
+  "orig_no": 7,
+  "label": null,
+  "topic": "광합성·세포 호흡이 산화·환원 반응인지",
+  "tier": "B",
+  "answer": 4
+ },
+ {
+  "seq": 46,
+  "png": "output/items/redox/redox_46.png",
+  "stem": "2024년-03월-고2-생명과학1",
+  "orig_no": 3,
+  "label": null,
+  "topic": "광합성과 세포 호흡 — 포도당의 환원 여부",
+  "tier": "B",
+  "answer": 3
+ },
+ {
+  "seq": 47,
+  "png": "output/items/redox/redox_47.png",
+  "stem": "2025년-03월-고2-생명과학1",
+  "orig_no": 8,
+  "label": null,
+  "topic": "광합성과 세포 호흡 — 포도당의 환원 여부",
+  "tier": "B",
+  "answer": 2
+ },
+ {
+  "seq": 48,
+  "png": "output/items/redox/redox_48.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 9,
+  "label": null,
+  "topic": "화학의 유용성 — 철광석에서 철을 얻는 과정의 산화·환원",
+  "tier": "B",
+  "answer": 1
+ },
+ {
+  "seq": 49,
+  "png": "output/items/redox/redox_49.png",
+  "stem": "2025년-10월-고1-통합과학",
+  "orig_no": 17,
+  "label": null,
+  "topic": "연소(산화) 반응의 열 출입 가설 검증",
+  "tier": "B",
+  "answer": 3
+ },
+ {
+  "seq": 50,
+  "png": "output/items/redox/redox_50.png",
+  "stem": "2026년-03월-고2-통합과학",
+  "orig_no": 7,
+  "label": null,
+  "topic": "아세트산 수용액과 Mg — 환원 여부 판별",
+  "tier": "B",
+  "answer": 4
+ }
+]

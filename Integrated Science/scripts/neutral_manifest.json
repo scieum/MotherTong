@@ -1,0 +1,312 @@
+[
+ {
+  "seq": 1,
+  "png": "output/items/neutral/neutral_01.png",
+  "stem": "2018년-11월-고1-통합과학",
+  "orig_no": 19,
+  "label": null,
+  "topic": "염산·NaOH 부피를 달리한 중화 — 혼합 용액의 최고 온도",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 2,
+  "png": "output/items/neutral/neutral_02.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 3,
+  "label": null,
+  "topic": "화학 변화의 사례 중 중화 반응 판별",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 3,
+  "png": "output/items/neutral/neutral_03.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 16,
+  "label": null,
+  "topic": "부피를 달리한 중화 — 최고 온도와 생성된 물의 양",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 4,
+  "png": "output/items/neutral/neutral_04.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 20,
+  "label": null,
+  "topic": "혼합 용액의 양이온 모형과 액성",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 5,
+  "png": "output/items/neutral/neutral_05.png",
+  "stem": "2019년-11월-고1-통합과학",
+  "orig_no": 15,
+  "label": null,
+  "topic": "HCl·NaOH를 여러 부피비로 혼합한 용액의 액성",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 6,
+  "png": "output/items/neutral/neutral_06.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 4,
+  "label": null,
+  "topic": "중화 반응의 사례 판별(제산제·석회 가루·녹)",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 7,
+  "png": "output/items/neutral/neutral_07.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 10,
+  "label": null,
+  "topic": "최고 온도 그래프로 생성된 물의 양 비교",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 8,
+  "png": "output/items/neutral/neutral_08.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 18,
+  "label": null,
+  "topic": "HCl에 NaOH를 더할 때 수용액 속 이온 모형 변화",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 9,
+  "png": "output/items/neutral/neutral_09.png",
+  "stem": "2020년-11월-고1-통합과학",
+  "orig_no": 18,
+  "label": null,
+  "topic": "혼합 용액의 액성과 이온 수 비교",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 10,
+  "png": "output/items/neutral/neutral_10.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 16,
+  "label": null,
+  "topic": "산·염기 수용액의 음이온 모형과 혼합 후 액성",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 11,
+  "png": "output/items/neutral/neutral_11.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 18,
+  "label": null,
+  "topic": "혼합 부피에 따른 최고 온도 비교",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 12,
+  "png": "output/items/neutral/neutral_12.png",
+  "stem": "2021년-11월-고1-통합과학",
+  "orig_no": 10,
+  "label": null,
+  "topic": "중화 반응 실험 — 페놀프탈레인 색과 중화열",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 13,
+  "png": "output/items/neutral/neutral_13.png",
+  "stem": "2022년-03월-고2-화학1",
+  "orig_no": 15,
+  "label": null,
+  "topic": "세 수용액을 둘씩 혼합했을 때의 이온 모형",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 14,
+  "png": "output/items/neutral/neutral_14.png",
+  "stem": "2022년-03월-고2-화학1",
+  "orig_no": 18,
+  "label": null,
+  "topic": "혼합 용액 속 이온 수 비 계산",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 15,
+  "png": "output/items/neutral/neutral_15.png",
+  "stem": "2022년-11월-고1-통합과학",
+  "orig_no": 17,
+  "label": null,
+  "topic": "중화 반응 실험 — 단계별 혼합과 액성 변화",
+  "tier": "A",
+  "answer": null
+ },
+ {
+  "seq": 16,
+  "png": "output/items/neutral/neutral_16.png",
+  "stem": "2023년-03월-고2-화학1",
+  "orig_no": 17,
+  "label": null,
+  "topic": "BTB 색 변화로 본 용액 A 첨가와 중화",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 17,
+  "png": "output/items/neutral/neutral_17.png",
+  "stem": "2023년-11월-고1-통합과학",
+  "orig_no": 18,
+  "label": null,
+  "topic": "중화 반응에서 혼합 용액의 양이온 모형",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 18,
+  "png": "output/items/neutral/neutral_18.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 5,
+  "label": null,
+  "topic": "중화 반응을 이용한 사례(암모니아수·레몬즙·제산제)",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 19,
+  "png": "output/items/neutral/neutral_19.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 16,
+  "label": null,
+  "topic": "KOH 수용액에 HCl을 더할 때의 양이온 모형",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 20,
+  "png": "output/items/neutral/neutral_20.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 19,
+  "label": null,
+  "topic": "혼합 용액의 액성과 최고 온도",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 21,
+  "png": "output/items/neutral/neutral_21.png",
+  "stem": "2024년-10월-고1-통합과학",
+  "orig_no": 9,
+  "label": null,
+  "topic": "NaOH 수용액에 HCl을 더할 때 이온 모형 변화",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 22,
+  "png": "output/items/neutral/neutral_22.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 13,
+  "label": null,
+  "topic": "최고 온도 그래프와 혼합 용액의 액성",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 23,
+  "png": "output/items/neutral/neutral_23.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 18,
+  "label": null,
+  "topic": "혼합 용액 속 이온 모형과 이온 수 비",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 24,
+  "png": "output/items/neutral/neutral_24.png",
+  "stem": "2025년-10월-고1-통합과학",
+  "orig_no": 23,
+  "label": null,
+  "topic": "중화 반응 실험 — 최고 온도와 BTB 색",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 25,
+  "png": "output/items/neutral/neutral_25.png",
+  "stem": "2026년-03월-고2-통합과학",
+  "orig_no": 25,
+  "label": null,
+  "topic": "혼합 용액의 BTB 색과 이온 수 계산",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 26,
+  "png": "output/items/neutral/neutral_26.png",
+  "stem": "2026년-06월-고2-통합과학",
+  "orig_no": 23,
+  "label": null,
+  "topic": "혼합 용액 (가)~(다)의 액성 판별",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 27,
+  "png": "output/items/neutral/neutral_27.png",
+  "stem": "2026년-09월-고2-통합과학",
+  "orig_no": 20,
+  "label": null,
+  "topic": "중화 반응 실험 — 최고 온도·BTB 색·이온 수",
+  "tier": "A",
+  "answer": 2
+ },
+ {
+  "seq": 28,
+  "png": "output/items/neutral/neutral_28.png",
+  "stem": "2028학년도-수능예시문항-1차",
+  "orig_no": 6,
+  "label": "예시문항 6번",
+  "topic": "중화 반응 실험 — 최고 온도·BTB 색·이온 수 모형",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 29,
+  "png": "output/items/neutral/neutral_29.png",
+  "stem": "2028학년도-수능예시문항-2차",
+  "orig_no": 24,
+  "label": "문제지 24번",
+  "topic": "HCl·NaOH·KOH 혼합 용액의 최고 온도와 액성",
+  "tier": "A",
+  "answer": 4
+ },
+ {
+  "seq": 30,
+  "png": "output/items/neutral/neutral_30.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 3,
+  "label": null,
+  "topic": "실생활 화학 반응 사례 — 산화·환원과 중화의 구분",
+  "tier": "B",
+  "answer": 2
+ },
+ {
+  "seq": 31,
+  "png": "output/items/neutral/neutral_31.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 2,
+  "label": null,
+  "topic": "화학 반응의 사례 — 산화·환원과 중화의 구분",
+  "tier": "B",
+  "answer": 3
+ }
+]

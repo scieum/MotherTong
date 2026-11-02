@@ -1,0 +1,162 @@
+[
+ {
+  "seq": 1,
+  "png": "output/items/heat/heat_01.png",
+  "stem": "2025년-10월-고1-통합과학",
+  "orig_no": 17,
+  "label": null,
+  "topic": "연소 반응의 열 출입 — 가설 검증과 반응물·생성물의 에너지",
+  "tier": "A",
+  "answer": 3
+ },
+ {
+  "seq": 2,
+  "png": "output/items/heat/heat_02.png",
+  "stem": "2026년-03월-고2-통합과학",
+  "orig_no": 16,
+  "label": null,
+  "topic": "염화 칼슘 등을 물에 녹일 때의 온도 변화 탐구",
+  "tier": "A",
+  "answer": 1
+ },
+ {
+  "seq": 3,
+  "png": "output/items/heat/heat_03.png",
+  "stem": "2026년-06월-고2-통합과학",
+  "orig_no": 16,
+  "label": null,
+  "topic": "Mg의 연소와 손난로 속 철의 반응 — 에너지 방출",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 4,
+  "png": "output/items/heat/heat_04.png",
+  "stem": "2028학년도-수능예시문항-1차",
+  "orig_no": 5,
+  "label": "예시문항 5번",
+  "topic": "지구·생명 현상의 산화·환원 반응과 열의 흡수·방출 가설 검증",
+  "tier": "A",
+  "answer": 5
+ },
+ {
+  "seq": 5,
+  "png": "output/items/heat/heat_05.png",
+  "stem": "2018년-11월-고1-통합과학",
+  "orig_no": 19,
+  "label": null,
+  "topic": "염산·NaOH 부피를 달리한 중화 — 혼합 용액의 최고 온도",
+  "tier": "B",
+  "answer": 4
+ },
+ {
+  "seq": 6,
+  "png": "output/items/heat/heat_06.png",
+  "stem": "2019년-03월-고2-화학1",
+  "orig_no": 16,
+  "label": null,
+  "topic": "부피를 달리한 중화 — 최고 온도와 생성된 물의 양",
+  "tier": "B",
+  "answer": 4
+ },
+ {
+  "seq": 7,
+  "png": "output/items/heat/heat_07.png",
+  "stem": "2020년-03월-고2-화학1",
+  "orig_no": 10,
+  "label": null,
+  "topic": "최고 온도 그래프로 생성된 물의 양 비교",
+  "tier": "B",
+  "answer": 2
+ },
+ {
+  "seq": 8,
+  "png": "output/items/heat/heat_08.png",
+  "stem": "2021년-03월-고2-화학1",
+  "orig_no": 18,
+  "label": null,
+  "topic": "혼합 부피에 따른 최고 온도 비교",
+  "tier": "B",
+  "answer": 3
+ },
+ {
+  "seq": 9,
+  "png": "output/items/heat/heat_09.png",
+  "stem": "2021년-11월-고1-통합과학",
+  "orig_no": 10,
+  "label": null,
+  "topic": "중화 반응 실험 — 페놀프탈레인 색과 중화열",
+  "tier": "B",
+  "answer": 1
+ },
+ {
+  "seq": 10,
+  "png": "output/items/heat/heat_10.png",
+  "stem": "2022년-11월-고1-통합과학",
+  "orig_no": 17,
+  "label": null,
+  "topic": "중화 반응 실험 — 단계별 혼합과 발열",
+  "tier": "B",
+  "answer": null
+ },
+ {
+  "seq": 11,
+  "png": "output/items/heat/heat_11.png",
+  "stem": "2024년-03월-고2-화학1",
+  "orig_no": 19,
+  "label": null,
+  "topic": "혼합 용액의 액성과 최고 온도",
+  "tier": "B",
+  "answer": 1
+ },
+ {
+  "seq": 12,
+  "png": "output/items/heat/heat_12.png",
+  "stem": "2025년-03월-고2-화학1",
+  "orig_no": 13,
+  "label": null,
+  "topic": "최고 온도 그래프와 혼합 용액의 액성",
+  "tier": "B",
+  "answer": 1
+ },
+ {
+  "seq": 13,
+  "png": "output/items/heat/heat_13.png",
+  "stem": "2025년-10월-고1-통합과학",
+  "orig_no": 23,
+  "label": null,
+  "topic": "중화 반응 실험 — 최고 온도와 BTB 색",
+  "tier": "B",
+  "answer": 2
+ },
+ {
+  "seq": 14,
+  "png": "output/items/heat/heat_14.png",
+  "stem": "2026년-06월-고2-통합과학",
+  "orig_no": 23,
+  "label": null,
+  "topic": "혼합 용액의 액성과 최고 온도",
+  "tier": "B",
+  "answer": 2
+ },
+ {
+  "seq": 15,
+  "png": "output/items/heat/heat_15.png",
+  "stem": "2026년-09월-고2-통합과학",
+  "orig_no": 20,
+  "label": null,
+  "topic": "중화 반응 실험 — 최고 온도·BTB 색·이온 수",
+  "tier": "B",
+  "answer": 2
+ },
+ {
+  "seq": 16,
+  "png": "output/items/heat/heat_16.png",
+  "stem": "2028학년도-수능예시문항-1차",
+  "orig_no": 6,
+  "label": "예시문항 6번",
+  "topic": "중화 반응 실험 — 최고 온도·BTB 색·이온 수 모형",
+  "tier": "B",
+  "answer": 5
+ }
+]

@@ -1,0 +1,1484 @@
+{
+  "$comment": "ExamForge 출제 블루프린트 (canon). 이 파일이 승인·잠금되기 전에는 문항 선정을 시작하지 않는다.",
+  "version": "1.4",
+  "locked_at": "2026-09-03",
+  "revision_note": "v1.4: 페이지-문항 매핑 분석 반영. R-411(19~25번 1.5점 배치 금지, HARD), R-412(마무리 구간 정량 계산형 2~3문항), R-406 3구간 배점 합, R-408 구간별 난이도 곡선 추가.",
+  "curriculum": "2022 개정 교육과정 통합과학1·2",
+  "source_basis": [
+    {
+      "exam": "2026학년도 3월 고2 전국연합학력평가 통합과학",
+      "items": 25,
+      "score_total": 50.0
+    },
+    {
+      "exam": "2026학년도 6월 고2 전국연합학력평가 통합과학",
+      "items": 25,
+      "score_total": 50.0
+    },
+    {
+      "exam": "2026학년도 9월 고2 전국연합학력평가 통합과학",
+      "items": 25,
+      "score_total": 50.0
+    }
+  ],
+  "total": 25,
+  "total_score": 50.0,
+  "sets": 3,
+  "score_structure": {
+    "$comment": "기준 시험지 3회(2026-03/06/09)에서 완전히 동일하게 관찰된 규격. 편차 허용 없음.",
+    "2.5": 8,
+    "2.0": 9,
+    "1.5": 8,
+    "tolerance": 0
+  },
+  "origin_score_quota": {
+    "$comment": "2015 개정 원본 배점 기준 선정 쿼터. 3점→2.5점 자동, 2점 17개 중 쉬운 8개→1.5점.",
+    "3점": 8,
+    "2점": 17,
+    "tolerance": 0
+  },
+  "domains": [
+    {
+      "id": "SCI1-01",
+      "subject": "통합과학1",
+      "name": "과학의 기초",
+      "count": 2,
+      "tolerance": 1,
+      "observed": {
+        "2026-03": 1,
+        "2026-06": 2,
+        "2026-09": 2
+      },
+      "observed_mean": 1.67,
+      "is_new_unit": true,
+      "source_year_min": 2025,
+      "note": "2022 개정 신설 영역. 2015 개정에 대응 성취기준 없음 → 2025년 이후 문항으로만 조달 가능."
+    },
+    {
+      "id": "SCI1-02",
+      "subject": "통합과학1",
+      "name": "물질과 규칙성",
+      "count": 5,
+      "tolerance": 1,
+      "observed": {
+        "2026-03": 5,
+        "2026-06": 6,
+        "2026-09": 4
+      },
+      "observed_mean": 5.0,
+      "is_new_unit": false,
+      "source_year_min": null
+    },
+    {
+      "id": "SCI1-03",
+      "subject": "통합과학1",
+      "name": "시스템과 상호작용",
+      "count": 6,
+      "tolerance": 0,
+      "observed": {
+        "2026-03": 6,
+        "2026-06": 6,
+        "2026-09": 6
+      },
+      "observed_mean": 6.0,
+      "is_new_unit": false,
+      "source_year_min": null,
+      "note": "3회 모두 값이 일치. 편차 0으로 잠금."
+    },
+    {
+      "id": "SCI2-01",
+      "subject": "통합과학2",
+      "name": "변화와 다양성",
+      "count": 6,
+      "tolerance": 1,
+      "observed": {
+        "2026-03": 6,
+        "2026-06": 5,
+        "2026-09": 6
+      },
+      "observed_mean": 5.67,
+      "is_new_unit": false,
+      "source_year_min": null
+    },
+    {
+      "id": "SCI2-02",
+      "subject": "통합과학2",
+      "name": "환경과 에너지",
+      "count": 5,
+      "tolerance": 0,
+      "observed": {
+        "2026-03": 5,
+        "2026-06": 5,
+        "2026-09": 5
+      },
+      "observed_mean": 5.0,
+      "is_new_unit": false,
+      "source_year_min": null,
+      "note": "3회 모두 값이 일치. 편차 0으로 잠금."
+    },
+    {
+      "id": "SCI2-03",
+      "subject": "통합과학2",
+      "name": "과학과 미래 사회",
+      "count": 1,
+      "tolerance": 1,
+      "observed": {
+        "2026-03": 2,
+        "2026-06": 1,
+        "2026-09": 2
+      },
+      "observed_mean": 1.67,
+      "is_new_unit": true,
+      "source_year_min": 2025,
+      "note": "2022 개정 신설 영역. 관찰 평균은 1.67이나 기준값을 1로 유지한다 — 조달 가능 문항이 6~7개뿐이고 실제 출제된 성취기준이 3종(2-03-01/02/03)뿐이어서, 기준값 2는 재고를 전량 소진시키고 회차 간 성취기준 중복을 강제한다. 편차 +1로 여유 있는 회차만 2문항 허용."
+    }
+  ],
+  "domain_sum_check": {
+    "$comment": "편차를 사용하더라도 6개 영역 합계는 반드시 25로 고정된다. 한 영역을 +1 하면 다른 영역을 -1 해야 한다.",
+    "must_equal": 25
+  },
+  "new_unit_supply": {
+    "$comment": "신설 영역 조달 계획. 2026-09-02 재고 확인 완료 — 조달 가능 판정.",
+    "required_per_set": 3,
+    "required_total": 9,
+    "max_with_tolerance": 15,
+    "eligible_source_years": [
+      2025,
+      2026
+    ],
+    "status": "verified",
+    "sources_for_SCI1-01": [
+      "2025-06-고1",
+      "2025-09-고1",
+      "2025-11-고1",
+      "2026-06-고1",
+      "2026-09-고1",
+      "2026-03-고2",
+      "2026-06-고2",
+      "2026-09-고2"
+    ],
+    "sources_for_SCI2-03": [
+      "2025-11-고1(조건부)",
+      "2026-03-고2",
+      "2026-06-고2",
+      "2026-09-고2"
+    ],
+    "estimated_stock": {
+      "SCI1-01": "10~14",
+      "SCI2-03": "4~6"
+    },
+    "note": "SCI2-03은 성취기준이 4개(2-03-01~04)이므로 3회차에 서로 다른 성취기준을 1개씩 배치하면 중복이 발생하지 않는다. 회차 간 성취기준 분산을 권장 규칙으로 둔다.",
+    "precheck": "item_bank에서 source_year>=2025 이면서 domain in [SCI1-01, SCI2-03] 인 eligible 문항 수가 각각 6, 3 미만이면 선정을 시작하지 말고 에스컬레이션."
+  },
+  "excluded_assets": {
+    "$comment": "통합과학 성취기준으로 태깅하면 문항은행이 오염되는 자산. A0 단계에서 자동 배제한다.",
+    "rule": "고1 3월 학력평가는 중학교 3학년 과학 범위에서 출제되므로 통합과학1·2 성취기준 대상이 아니다.",
+    "list": [
+      "2025-03-고1",
+      "2026-03-고1"
+    ]
+  },
+  "constraints": {
+    "hard": {
+      "no_reuse_across_sets": true,
+      "answer_key_required": true,
+      "eligible_only": true,
+      "new_unit_source_year_min": 2025
+    },
+    "soft": {
+      "max_same_standard_per_set": 2,
+      "preferred_pair_standard": {
+        "code": "10통과2-01-04",
+        "count_per_set": 2,
+        "pattern": "저배점 1문항 + 2.5점 1문항",
+        "basis": "기준 시험지 3회 모두 예외 없이 회당 2문항"
+      },
+      "max_same_source_exam_per_set": 6,
+      "min_recent_ratio": 0.7,
+      "recent_year_threshold": 2021,
+      "max_difficulty_sum_gap": 3
+    },
+    "relaxation_order": [
+      "max_difficulty_sum_gap",
+      "max_same_source_exam_per_set",
+      "min_recent_ratio",
+      "max_same_standard_per_set"
+    ],
+    "never_relax": [
+      "domain counts (tolerance ±1, sum=25)",
+      "score_structure",
+      "origin_score_quota",
+      "no_reuse_across_sets",
+      "answer_key_required",
+      "new_unit_source_year_min"
+    ]
+  },
+  "standards": {
+    "$comment": "observed_scores는 기준 시험지 3회(2026-03/06/09)에서 실제 관찰된 배점. frequency는 3회 75문항 중 주성취기준으로 출제된 횟수. fixed:true는 3회 연속 동일 배점으로 관찰되어 배점 재배정 시 강제 규칙으로 적용한다.",
+    "10통과1-01-01": {
+      "domain": "SCI1-01",
+      "title": "시간·공간과 규모",
+      "frequency": 0,
+      "observed_scores": [],
+      "typical_score": "1.5",
+      "note": "3회 모두 미출제"
+    },
+    "10통과1-01-02": {
+      "domain": "SCI1-01",
+      "title": "기본량과 단위",
+      "frequency": 3,
+      "observed_scores": [
+        2.0,
+        1.5,
+        1.5
+      ],
+      "typical_score": [
+        1.5,
+        2.0
+      ]
+    },
+    "10통과1-01-03": {
+      "domain": "SCI1-01",
+      "title": "측정과 어림·측정 표준",
+      "frequency": 1,
+      "observed_scores": [
+        2.0
+      ],
+      "typical_score": 2.0
+    },
+    "10통과1-01-04": {
+      "domain": "SCI1-01",
+      "title": "정보와 신호·디지털 변환",
+      "frequency": 1,
+      "observed_scores": [
+        1.5
+      ],
+      "typical_score": 1.5
+    },
+    "10통과1-02-01": {
+      "domain": "SCI1-02",
+      "title": "스펙트럼과 우주 초기 원소",
+      "frequency": 2,
+      "observed_scores": [
+        2.0,
+        2.0
+      ],
+      "typical_score": 2.0
+    },
+    "10통과1-02-02": {
+      "domain": "SCI1-02",
+      "title": "원소 형성과 별의 진화",
+      "frequency": 3,
+      "observed_scores": [
+        1.5,
+        2.0,
+        2.0
+      ],
+      "typical_score": [
+        1.5,
+        2.0
+      ]
+    },
+    "10통과1-02-03": {
+      "domain": "SCI1-02",
+      "title": "원소의 주기성과 결합 이유",
+      "frequency": 2,
+      "observed_scores": [
+        2.0,
+        2.0
+      ],
+      "typical_score": 2.0
+    },
+    "10통과1-02-04": {
+      "domain": "SCI1-02",
+      "title": "이온 결합·공유 결합",
+      "frequency": 3,
+      "observed_scores": [
+        2.0,
+        2.5,
+        2.0
+      ],
+      "typical_score": [
+        2.0,
+        2.5
+      ]
+    },
+    "10통과1-02-05": {
+      "domain": "SCI1-02",
+      "title": "규산염·단백질·핵산의 단위체",
+      "frequency": 3,
+      "observed_scores": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "typical_score": 1.5,
+      "note": "3회 연속 1.5점 — 배점 재배정 시 1.5점 강제",
+      "fixed": true
+    },
+    "10통과1-02-06": {
+      "domain": "SCI1-02",
+      "title": "물질의 전기적 성질·반도체",
+      "frequency": 2,
+      "observed_scores": [
+        2.0,
+        1.5
+      ],
+      "typical_score": [
+        1.5,
+        2.0
+      ]
+    },
+    "10통과1-03-01": {
+      "domain": "SCI1-03",
+      "title": "지구시스템 권역의 물질 순환과 에너지 흐름",
+      "frequency": 2,
+      "observed_scores": [
+        2.5,
+        1.5
+      ],
+      "typical_score": [
+        1.5,
+        2.5
+      ]
+    },
+    "10통과1-03-02": {
+      "domain": "SCI1-03",
+      "title": "판구조론과 지각 변동",
+      "frequency": 2,
+      "observed_scores": [
+        1.5,
+        1.5
+      ],
+      "typical_score": 1.5
+    },
+    "10통과1-03-03": {
+      "domain": "SCI1-03",
+      "title": "중력장 내의 운동",
+      "frequency": 3,
+      "observed_scores": [
+        2.5,
+        2.0,
+        2.5
+      ],
+      "typical_score": [
+        2.0,
+        2.5
+      ]
+    },
+    "10통과1-03-04": {
+      "domain": "SCI1-03",
+      "title": "운동량과 충격량",
+      "frequency": 3,
+      "observed_scores": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "typical_score": 2.5,
+      "fixed": true,
+      "note": "3회 연속 2.5점 — 1.5/2점 강등 대상에서 제외"
+    },
+    "10통과1-03-05": {
+      "domain": "SCI1-03",
+      "title": "생명 시스템의 화학 반응과 물질 출입",
+      "frequency": 5,
+      "observed_scores": [
+        2.0,
+        2.5,
+        2.5,
+        2.5,
+        2.0
+      ],
+      "typical_score": [
+        2.0,
+        2.5
+      ],
+      "note": "3회 통틀어 최다 출제(5문항)"
+    },
+    "10통과1-03-06": {
+      "domain": "SCI1-03",
+      "title": "유전자와 단백질",
+      "frequency": 3,
+      "observed_scores": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "typical_score": 2.5,
+      "fixed": true,
+      "note": "3회 연속 2.5점 — 1.5/2점 강등 대상에서 제외"
+    },
+    "10통과2-01-01": {
+      "domain": "SCI2-01",
+      "title": "지질시대와 대멸종",
+      "frequency": 2,
+      "observed_scores": [
+        1.5,
+        2.0
+      ],
+      "typical_score": [
+        1.5,
+        2.0
+      ]
+    },
+    "10통과2-01-02": {
+      "domain": "SCI2-01",
+      "title": "변이·자연선택·생물다양성",
+      "frequency": 4,
+      "observed_scores": [
+        1.5,
+        2.0,
+        1.5,
+        2.5
+      ],
+      "typical_score": [
+        1.5,
+        2.5
+      ]
+    },
+    "10통과2-01-03": {
+      "domain": "SCI2-01",
+      "title": "산화와 환원",
+      "frequency": 3,
+      "observed_scores": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "typical_score": 2.0,
+      "fixed": true,
+      "note": "3회 연속 2.0점"
+    },
+    "10통과2-01-04": {
+      "domain": "SCI2-01",
+      "title": "산·염기와 중화 반응",
+      "frequency": 6,
+      "observed_scores": [
+        2.0,
+        2.5,
+        1.5,
+        2.5,
+        1.5,
+        2.5
+      ],
+      "typical_score": [
+        1.5,
+        2.5
+      ],
+      "note": "3회 모두 회당 2문항. 저배점 1 + 2.5점 1 쌍 구성"
+    },
+    "10통과2-01-05": {
+      "domain": "SCI2-01",
+      "title": "물질 변화에서 에너지 출입",
+      "frequency": 2,
+      "observed_scores": [
+        2.0,
+        1.5
+      ],
+      "typical_score": [
+        1.5,
+        2.0
+      ]
+    },
+    "10통과2-02-01": {
+      "domain": "SCI2-02",
+      "title": "생태계 구성요소와 상호 관계",
+      "frequency": 1,
+      "observed_scores": [
+        1.5
+      ],
+      "typical_score": 1.5
+    },
+    "10통과2-02-02": {
+      "domain": "SCI2-02",
+      "title": "생태계 평형과 환경 변화",
+      "frequency": 1,
+      "observed_scores": [
+        2.0
+      ],
+      "typical_score": 2.0
+    },
+    "10통과2-02-03": {
+      "domain": "SCI2-02",
+      "title": "온실효과·지구온난화·엘니뇨",
+      "frequency": 4,
+      "observed_scores": [
+        2.5,
+        2.0,
+        2.5,
+        2.0
+      ],
+      "typical_score": [
+        2.0,
+        2.5
+      ]
+    },
+    "10통과2-02-04": {
+      "domain": "SCI2-02",
+      "title": "태양 핵융합과 에너지 전환",
+      "frequency": 3,
+      "observed_scores": [
+        1.5,
+        1.5,
+        2.0
+      ],
+      "typical_score": [
+        1.5,
+        2.0
+      ],
+      "note": "2026-09에 2.0점으로 출제되어 고정형에서 해제"
+    },
+    "10통과2-02-05": {
+      "domain": "SCI2-02",
+      "title": "발전기와 전자기 유도",
+      "frequency": 3,
+      "observed_scores": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "typical_score": 2.5,
+      "fixed": true,
+      "note": "3회 연속 2.5점 — 1.5/2점 강등 대상에서 제외"
+    },
+    "10통과2-02-06": {
+      "domain": "SCI2-02",
+      "title": "에너지 효율과 신재생에너지",
+      "frequency": 3,
+      "observed_scores": [
+        1.5,
+        2.5,
+        1.5
+      ],
+      "typical_score": [
+        1.5,
+        2.5
+      ]
+    },
+    "10통과2-03-01": {
+      "domain": "SCI2-03",
+      "title": "감염병의 진단과 추적",
+      "frequency": 2,
+      "observed_scores": [
+        2.0,
+        2.0
+      ],
+      "typical_score": 2.0
+    },
+    "10통과2-03-02": {
+      "domain": "SCI2-03",
+      "title": "빅데이터 활용",
+      "frequency": 2,
+      "observed_scores": [
+        2.5,
+        1.5
+      ],
+      "typical_score": [
+        1.5,
+        2.5
+      ]
+    },
+    "10통과2-03-03": {
+      "domain": "SCI2-03",
+      "title": "인공지능 로봇·사물인터넷",
+      "frequency": 1,
+      "observed_scores": [
+        1.5
+      ],
+      "typical_score": 1.5
+    },
+    "10통과2-03-04": {
+      "domain": "SCI2-03",
+      "title": "과학 관련 사회적 쟁점(SSI)과 과학 윤리",
+      "frequency": 0,
+      "observed_scores": [],
+      "typical_score": 1.5,
+      "note": "단독 출제 없이 보기 요소로만 등장"
+    }
+  },
+  "arrangement_rules": {
+    "$comment": "R-4xx. 규칙 전문과 근거는 문항세트 규칙서 참조.",
+    "R-401_item1_score": 1.5,
+    "R-402_item25_score": 2.5,
+    "R-403_max_consecutive_same_domain": {
+      "limit": 2,
+      "allow_triple_per_set": 1,
+      "forbid": 4
+    },
+    "R-404_max_consecutive_2_5": {
+      "positions_1_to_21": 2,
+      "positions_22_to_25": 4,
+      "note": "2026-03/06 모두 22~25번이 2.5점 4연속"
+    },
+    "R-405_no_2_5_in_first5": {
+      "hard": true,
+      "observed_first_2_5_position": [
+        9,
+        11,
+        6
+      ]
+    },
+    "R-406_segment_score_sum": {
+      "1-5": [
+        8.0,
+        8.5
+      ],
+      "6-18": [
+        25.5,
+        25.5
+      ],
+      "19-25": [
+        16.0,
+        16.5
+      ],
+      "note": "6~18번 구간 합은 3회 모두 정확히 25.5"
+    },
+    "R-407_science_basics_position": {
+      "range": [
+        1,
+        6
+      ],
+      "observed": [
+        [
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    "R-408_difficulty_curve": {
+      "1-5": {
+        "avg_max": 2.5,
+        "level4plus_max": 0
+      },
+      "6-18": {
+        "avg_target": 3.0,
+        "level5_max": 1
+      },
+      "19-25": {
+        "level4plus_min": 4,
+        "level5_preferred": true
+      }
+    },
+    "R-409_domain_spread": true,
+    "R-410_non_boki_item_count": {
+      "range": [
+        0,
+        4
+      ],
+      "observed": [
+        0,
+        3,
+        4
+      ]
+    },
+    "R-411_no_1_5_in_last7": {
+      "hard": true,
+      "forbidden_range": [
+        19,
+        25
+      ],
+      "forbidden_score": 1.5,
+      "observed_max_position_of_1_5": [
+        15,
+        10,
+        18
+      ],
+      "segment_score_distribution_75": {
+        "1-5": {
+          "1.5": 10,
+          "2.0": 5,
+          "2.5": 0
+        },
+        "6-18": {
+          "1.5": 14,
+          "2.0": 14,
+          "2.5": 11
+        },
+        "19-25": {
+          "1.5": 0,
+          "2.0": 8,
+          "2.5": 13
+        }
+      },
+      "note": "R-405(1~5번 2.5점 금지)와 대칭. 마지막 장(22~25 / 23~25 / 22~25)을 확실히 포함하도록 19번까지 앞당김"
+    },
+    "R-412_closing_item_types": {
+      "range": [
+        22,
+        25
+      ],
+      "quantitative_items": [
+        2,
+        3
+      ],
+      "recurring_pair": [
+        "10통과2-01-04 중화 계산",
+        "10통과1-03-03 또는 1-03-04 역학 계산"
+      ],
+      "note": "3회 모두 이 두 문항이 19~25번 구간에 있었고 전부 2.5점"
+    }
+  },
+  "rules_document": "claude_ExamForge_문항세트_규칙서.md v1.2",
+  "domain_score_matrix": {
+    "$comment": "영역×배점 교차 쿼터(R-103). 행 합계(영역)와 열 합계(배점)는 HARD, 개별 칸은 SOFT 목표값. range는 2026-03/06/09 3회 관찰 범위.",
+    "SCI1-01": {
+      "1.5": {
+        "target": 1,
+        "range": [
+          0,
+          2
+        ]
+      },
+      "2.0": {
+        "target": 1,
+        "range": [
+          0,
+          1
+        ]
+      },
+      "2.5": {
+        "target": 0,
+        "range": [
+          0,
+          0
+        ],
+        "hard": true,
+        "note": "R-103a 3회 통틀어 0건"
+      }
+    },
+    "SCI1-02": {
+      "1.5": {
+        "target": 2,
+        "range": [
+          1,
+          2
+        ]
+      },
+      "2.0": {
+        "target": 3,
+        "range": [
+          3,
+          3
+        ]
+      },
+      "2.5": {
+        "target": 0,
+        "range": [
+          0,
+          1
+        ]
+      }
+    },
+    "SCI1-03": {
+      "1.5": {
+        "target": 1,
+        "range": [
+          0,
+          2
+        ]
+      },
+      "2.0": {
+        "target": 1,
+        "range": [
+          1,
+          1
+        ]
+      },
+      "2.5": {
+        "target": 4,
+        "range": [
+          3,
+          5
+        ],
+        "note": "전체 2.5점의 50%가 이 영역"
+      }
+    },
+    "SCI2-01": {
+      "1.5": {
+        "target": 2,
+        "range": [
+          1,
+          3
+        ]
+      },
+      "2.0": {
+        "target": 2,
+        "range": [
+          1,
+          3
+        ]
+      },
+      "2.5": {
+        "target": 2,
+        "range": [
+          1,
+          2
+        ]
+      }
+    },
+    "SCI2-02": {
+      "1.5": {
+        "target": 2,
+        "range": [
+          1,
+          3
+        ]
+      },
+      "2.0": {
+        "target": 1,
+        "range": [
+          0,
+          2
+        ]
+      },
+      "2.5": {
+        "target": 2,
+        "range": [
+          2,
+          2
+        ]
+      }
+    },
+    "SCI2-03": {
+      "1.5": {
+        "target": 0,
+        "range": [
+          0,
+          1
+        ]
+      },
+      "2.0": {
+        "target": 1,
+        "range": [
+          0,
+          1
+        ]
+      },
+      "2.5": {
+        "target": 0,
+        "range": [
+          0,
+          1
+        ]
+      }
+    },
+    "observed_totals_75": {
+      "SCI1-01": [
+        3,
+        2,
+        0
+      ],
+      "SCI1-02": [
+        5,
+        9,
+        1
+      ],
+      "SCI1-03": [
+        3,
+        3,
+        12
+      ],
+      "SCI2-01": [
+        6,
+        7,
+        4
+      ],
+      "SCI2-02": [
+        5,
+        4,
+        6
+      ],
+      "SCI2-03": [
+        2,
+        2,
+        1
+      ],
+      "column_totals": [
+        24,
+        27,
+        24
+      ]
+    }
+  },
+  "standard_quota": {
+    "$comment": "R-205. observed=[2026-03,06,09] 관찰 문항 수, target=회차당 기준값, needed_3sets=target×3 (3회차 조달 소요), observed_3sets는 관찰 총합이 기준과 다를 때만 기재.",
+    "10통과1-01-01": {
+      "domain": "SCI1-01",
+      "observed": [
+        0,
+        0,
+        0
+      ],
+      "target": 0,
+      "class": "excluded",
+      "needed_3sets": 0
+    },
+    "10통과1-01-02": {
+      "domain": "SCI1-01",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과1-01-03": {
+      "domain": "SCI1-01",
+      "observed": [
+        0,
+        0,
+        1
+      ],
+      "target": null,
+      "class": "rotation:A",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과1-01-04": {
+      "domain": "SCI1-01",
+      "observed": [
+        0,
+        1,
+        0
+      ],
+      "target": null,
+      "class": "rotation:A",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과1-02-01": {
+      "domain": "SCI1-02",
+      "observed": [
+        1,
+        1,
+        0
+      ],
+      "target": null,
+      "class": "rotation:B",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과1-02-02": {
+      "domain": "SCI1-02",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과1-02-03": {
+      "domain": "SCI1-02",
+      "observed": [
+        1,
+        0,
+        1
+      ],
+      "target": null,
+      "class": "rotation:B",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과1-02-04": {
+      "domain": "SCI1-02",
+      "observed": [
+        0,
+        2,
+        1
+      ],
+      "target": 1,
+      "class": "variable",
+      "needed_3sets": 3,
+      "range": [
+        0,
+        2
+      ]
+    },
+    "10통과1-02-05": {
+      "domain": "SCI1-02",
+      "observed": [
+        1,
+        2,
+        0
+      ],
+      "target": 1,
+      "class": "variable",
+      "needed_3sets": 3,
+      "range": [
+        0,
+        2
+      ]
+    },
+    "10통과1-02-06": {
+      "domain": "SCI1-02",
+      "observed": [
+        1,
+        0,
+        1
+      ],
+      "target": null,
+      "class": "rotation:B",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과1-03-01": {
+      "domain": "SCI1-03",
+      "observed": [
+        1,
+        1,
+        0
+      ],
+      "target": null,
+      "class": "rotation:C",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과1-03-02": {
+      "domain": "SCI1-03",
+      "observed": [
+        0,
+        1,
+        1
+      ],
+      "target": null,
+      "class": "rotation:C",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과1-03-03": {
+      "domain": "SCI1-03",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과1-03-04": {
+      "domain": "SCI1-03",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과1-03-05": {
+      "domain": "SCI1-03",
+      "observed": [
+        2,
+        1,
+        2
+      ],
+      "target": 2,
+      "class": "variable",
+      "needed_3sets": 6,
+      "range": [
+        1,
+        2
+      ]
+    },
+    "10통과1-03-06": {
+      "domain": "SCI1-03",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과2-01-01": {
+      "domain": "SCI2-01",
+      "observed": [
+        1,
+        1,
+        0
+      ],
+      "target": 1,
+      "class": "variable",
+      "needed_3sets": 3,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과2-01-02": {
+      "domain": "SCI2-01",
+      "observed": [
+        1,
+        1,
+        2
+      ],
+      "target": 1,
+      "class": "variable",
+      "needed_3sets": 3,
+      "range": [
+        1,
+        2
+      ],
+      "observed_3sets": 4
+    },
+    "10통과2-01-03": {
+      "domain": "SCI2-01",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과2-01-04": {
+      "domain": "SCI2-01",
+      "observed": [
+        2,
+        2,
+        2
+      ],
+      "target": 2,
+      "class": "fixed",
+      "needed_3sets": 6
+    },
+    "10통과2-01-05": {
+      "domain": "SCI2-01",
+      "observed": [
+        1,
+        0,
+        1
+      ],
+      "target": 1,
+      "class": "variable",
+      "needed_3sets": 3,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과2-02-01": {
+      "domain": "SCI2-02",
+      "observed": [
+        1,
+        0,
+        0
+      ],
+      "target": null,
+      "class": "rotation:D",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과2-02-02": {
+      "domain": "SCI2-02",
+      "observed": [
+        0,
+        1,
+        0
+      ],
+      "target": null,
+      "class": "rotation:D",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과2-02-03": {
+      "domain": "SCI2-02",
+      "observed": [
+        1,
+        1,
+        2
+      ],
+      "target": 1,
+      "class": "variable",
+      "needed_3sets": 3,
+      "range": [
+        1,
+        2
+      ],
+      "observed_3sets": 4
+    },
+    "10통과2-02-04": {
+      "domain": "SCI2-02",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과2-02-05": {
+      "domain": "SCI2-02",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과2-02-06": {
+      "domain": "SCI2-02",
+      "observed": [
+        1,
+        1,
+        1
+      ],
+      "target": 1,
+      "class": "fixed",
+      "needed_3sets": 3
+    },
+    "10통과2-03-01": {
+      "domain": "SCI2-03",
+      "observed": [
+        1,
+        0,
+        1
+      ],
+      "target": null,
+      "class": "rotation:E",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과2-03-02": {
+      "domain": "SCI2-03",
+      "observed": [
+        0,
+        1,
+        1
+      ],
+      "target": null,
+      "class": "rotation:E",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과2-03-03": {
+      "domain": "SCI2-03",
+      "observed": [
+        1,
+        0,
+        0
+      ],
+      "target": null,
+      "class": "rotation:E",
+      "needed_3sets": null,
+      "range": [
+        0,
+        1
+      ]
+    },
+    "10통과2-03-04": {
+      "domain": "SCI2-03",
+      "observed": [
+        0,
+        0,
+        0
+      ],
+      "target": 0,
+      "class": "excluded",
+      "needed_3sets": 0
+    }
+  },
+  "rotation_groups": {
+    "$comment": "R-206. per_set=회차당 이 그룹에서 뽑을 문항 수, needed_3sets=3회차 총 소요.",
+    "A": {
+      "domain": "SCI1-01",
+      "members": [
+        "10통과1-01-03",
+        "10통과1-01-04"
+      ],
+      "per_set": 1,
+      "needed_3sets": 3,
+      "even_split": false
+    },
+    "B": {
+      "domain": "SCI1-02",
+      "members": [
+        "10통과1-02-01",
+        "10통과1-02-03",
+        "10통과1-02-06"
+      ],
+      "per_set": 2,
+      "needed_3sets": 6,
+      "even_split": true,
+      "note": "3종 × 2회 = 6, 완전 균등"
+    },
+    "C": {
+      "domain": "SCI1-03",
+      "members": [
+        "10통과1-03-01",
+        "10통과1-03-02"
+      ],
+      "per_set": 1,
+      "needed_3sets": 3,
+      "even_split": false
+    },
+    "D": {
+      "domain": "SCI2-02",
+      "members": [
+        "10통과2-02-01",
+        "10통과2-02-02"
+      ],
+      "per_set": 1,
+      "needed_3sets": 3,
+      "even_split": false
+    },
+    "E": {
+      "domain": "SCI2-03",
+      "members": [
+        "10통과2-03-01",
+        "10통과2-03-02",
+        "10통과2-03-03"
+      ],
+      "per_set": 1,
+      "needed_3sets": 3,
+      "even_split": true,
+      "risk": "2-03-03(AI·사물인터넷)은 3회 관찰에서 2026-03 11번 1문항뿐. 2025 고1 11월에 없으면 로테이션 불성립 → 다른 2종 중 1종을 2회 사용(R-204 완화)"
+    }
+  },
+  "excluded_standards": {
+    "$comment": "R-207. 태깅은 유지하되 선정 후보에서 제외.",
+    "list": [
+      "10통과1-01-01",
+      "10통과2-03-04"
+    ]
+  },
+  "page_layout": {
+    "$comment": "조판 참고용. 규칙의 기준으로는 사용하지 않는다(페이지 경계는 자료 크기에 따라 변동).",
+    "2026-03": [
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        22,
+        25
+      ]
+    ],
+    "2026-06": [
+      [
+        1,
+        5
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        15,
+        18
+      ],
+      [
+        19,
+        22
+      ],
+      [
+        23,
+        25
+      ]
+    ],
+    "2026-09": [
+      [
+        1,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        14,
+        17
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        22,
+        25
+      ]
+    ],
+    "last_page_score_distribution": {
+      "1.5": 0,
+      "2.0": 2,
+      "2.5": 9,
+      "total_items": 11
+    }
+  }
+}
